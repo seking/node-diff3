@@ -27,9 +27,7 @@
   "exports": {
     "bun": "./src/diff3.mjs",
     "types": "./src/diff3.d.ts",
-    "import": "./dist/diff3.mjs",
-    "require": "./dist/diff3.cjs",
-    "browser": "./dist/diff3.iife.js"
+    "default": "./src/diff3.mjs"
   },
   "scripts": {
     "all": "bun run --sequential clean check build test",
